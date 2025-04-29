@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Affine Alternatives for Productivity",
+    "created": "2023-04-29",
+    "updated": "2023-04-29"
+  },
+  "content": {
+    "alternatives": [
+      {
+        "name": "Anytype",
+        "type": "Notion + Affine hybrid (Offline-first)",
+        "benefits": "Local-first data model, highly modular and decentralized",
+        "notes": "Great for idea development, second brain tasks, no external dependencies",
+        "recommendation": "Primary fit for offline-first, second-brain backbone syncing with modular architecture"
+      },
+      {
+        "name": "Reflect Notes",
+        "type": "Graph-based second brain",
+        "benefits": "Ultra-fast graph linking between ideas; great for project-memory overlays",
+        "notes": "Super clean UI, Markdown-backed",
+        "recommendation": "Secondary fit for deep graph-memory, perfect to extend cursor-memory-bank work"
+      },
+      {
+        "name": "Tana",
+        "type": "Dynamic workspace/knowledge graphs",
+        "benefits": "Customizable structure + actions/events, fits multi-layer agent flows",
+        "notes": "Currently invite-only but extremely powerful",
+        "recommendation": "Experimental fit for dynamic agent behavior or cross-task automation"
+      },
+      {
+        "name": "Logseq",
+        "type": "Open-source outliner / networked thinking",
+        "benefits": "Markdown local-first, backlinks; amazing for living system maps",
+        "notes": "Scriptable with plugins if needed",
+        "recommendation": "Secondary fit for deep graph-memory, perfect to extend cursor-memory-bank work"
+      },
+      {
+        "name": "Capacities",
+        "type": "Object-based note-taking",
+        "benefits": "Pages are types of objects (tasks, ideas, bookmarks)",
+        "notes": "Still evolving rapidly, very structured",
+        "recommendation": "Experimental fit for idea growth & prototyping"
+      },
+      {
+        "name": "Supernotes",
+        "type": "Card-based productivity",
+        "benefits": "Highly modular, atomic units of knowledge—perfect for minimalism + rapid linking",
+        "notes": "Think in \"knowledge packets\"",
+        "recommendation": "Experimental fit for idea growth & prototyping"
+      }
+    ],
+    "integration": {
+      "workflow": {
+        "steps": [
+          {
+            "stage": "Idea Capture",
+            "tool": "Anytype",
+            "actions": [
+              "Create Atomic Note (one idea per note)",
+              "Tag to Phase (Discovery, Research, Planning, Building, Scaling)",
+              "Link to related notes"
+            ],
+            "principle": "Think modular. Build knowledge webs."
+          },
+          {
+            "stage": "Visual Sketch",
+            "tool": "Excalidraw",
+            "actions": [
+              "Draft rough diagram (mindmap, system map, workflow)",
+              "Save .excalidraw file",
+              "Export .svg for visuals (optional)"
+            ],
+            "principle": "Visualize systems. Keep flexible and lightweight."
+          },
+          {
+            "stage": "Validation",
+            "tool": "Flow Gate Checklist",
+            "actions": [
+              "Clear Title & Purpose",
+              "Atomic Focus",
+              "Linked or Logical",
+              "Confidence Level > 70%",
+              "Naming Clean (slug-style)"
+            ],
+            "principle": "Only promote mature ideas. Protect system memory."
+          },
+          {
+            "stage": "System Commit",
+            "tool": "Bolt DIY",
+            "actions": [
+              "Text → /cursor-memory-bank/",
+              "Diagrams → /diagrams/early_sketches/ → /final_maps/",
+              "Version Control (Git Commit)"
+            ],
+            "principle": "Structure only what deserves to be structured."
+          }
+        ],
+        "motto": "Capture lightly, connect deeply, commit only when clarity demands."
+      },
+      "bestPractices": {
+        "capture": [
+          "Atomic First: Break ideas into the smallest meaningful units.",
+          "Phase Tag Early: Always tag notes immediately (Discovery, Research, Planning, Building, Scaling).",
+          "Link Boldly: Build webs of related knowledge — ideas should connect or be challenged."
+        ],
+        "visualization": [
+          "Draft Fast, Think Clear: Focus on conveying logical flow, not polished aesthetics.",
+          "Save in Both Formats: .excalidraw (source) always; .svg optionally for clean visuals.",
+          "Label, Not Explain: Diagrams should largely explain themselves via labels and flows."
+        ],
+        "validation": [
+          "Checklist Discipline: Never skip the Flow Gate — check Confidence, Atomicity, Logical Links, Naming.",
+          "Delay Promotion: If uncertain, keep working inside Anytype/Excalidraw. Promote only when coherence crystallizes."
+        ],
+        "promotion": [
+          "Slugify Everything: Use clean, lowercased, hyphenated file names (phase2-user-flow-map.excalidraw).",
+          "Folder Respect: Diagrams in /diagrams/, notes in /cursor-memory-bank/ — maintain clear separation.",
+          "Commit With Reason: Every commit into Bolt DIY memory must have a \"why now\" justification."
+        ]
+      },
+      "setup": {
+        "anytype": {
+          "structure": [
+            "⚓ Bolt DIY System Anchor",
+            "Phase 0 – Discovery",
+            "Phase 1 – Research",
+            "Phase 2 – Planning",
+            "Phase 3 – Building",
+            "Phase 4 – Scaling"
+          ],
+          "anchorTemplate": "# 🧭 Reminder Motto\n> **\"Capture lightly, connect deeply, commit only when clarity demands.\"**\n\n---\n\n# 🧩 Phase Structure\n- 🏁 **Discovery Phase** — Raw ideas, seeds, inspiration\n- 🔍 **Research Phase** — Linked knowledge webs, technical exploration\n- 🛠 **Planning Phase** — Structured drafts, early systems modeling\n- 🏗 **Building Phase** — Concrete design, architecture, flows\n- 🚀 **Scaling Phase** — Optimization, scaling systems, advanced integration\n\n---\n\n# 🛡 Flow Reminder\n[Anytype (Idea Capture)] → [Excalidraw (Visual Draft)] → [Flow Gate Validation] → [Bolt DIY Commit]"
+        },
+        "boltDIY": {
+          "folders": [
+            "/cursor-memory-bank/",
+            "/diagrams/early_sketches/",
+            "/diagrams/final_maps/"
+          ]
+        }
+      }
+    }
+  }
+}

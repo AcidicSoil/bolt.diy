@@ -1,0 +1,25 @@
+
+5-Phase Narrative Walkthrough: The Natural Progression of a User Inside Bolt.diy
+
+Phase 1: "Tinker Mode" — Pure Exploration
+- Visual builder only, lightweight drafts, no interruptions.
+- Creative freedom prioritized.
+
+Phase 2: "Structured Builder Mode" — Guided Development
+- Enable structured VAN ➔ PLAN ➔ CREATIVE ➔ IMPLEMENT.
+- Memory Bank begins capturing.
+
+Phase 3: "Sanity Mode" — Smarter Guardrails
+- Vibe Check MCP Server activated.
+- Pattern interrupts at phase transitions to improve direction.
+
+Phase 4: "Quality Mode" — Formalizing Standards
+- LLManager approval integrated.
+- Every phase must meet defined quality benchmarks.
+
+Phase 5: "Command Center Mode" — Human-AI Partnership
+- Agent Inbox handles dynamic agent interrupts and approvals.
+- Full oversight with manual edits.
+
+Closing:
+Bolt.diy scales from playful to professional seamlessly. Start simple. Grow powerful. Stay in command.

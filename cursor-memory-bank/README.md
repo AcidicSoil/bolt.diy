@@ -7,12 +7,12 @@ graph TD
     Main["Memory Bank System"] --> Modes["Custom Modes"]
     Main --> Rules["JIT Rule Loading"]
     Main --> Visual["Visual Process Maps"]
-    
+
     Modes --> VAN["VAN: Initialization"]
     Modes --> PLAN["PLAN: Task Planning"]
     Modes --> CREATIVE["CREATIVE: Design"]
     Modes --> IMPLEMENT["IMPLEMENT: Building"]
-    
+
     style Main fill:#4da6ff,stroke:#0066cc,color:white
     style Modes fill:#f8d486,stroke:#e8b84d
     style Rules fill:#80ffaa,stroke:#4dbb5f
@@ -69,6 +69,22 @@ This implementation will continue to be refined and optimized as Claude's capabi
 - **Visual Decision Trees**: Guided workflows with clear checkpoints
 - **Technical Validation**: QA processes that can be called from any mode
 - **Platform-Aware Commands**: Automatically adapts commands to your operating system
+
+## Integration: Anytype + Excalidraw Workflow (Pre-VAN Layer)
+
+To support richer ideation and flexible diagramming before formal task initialization, this system integrates with:
+
+- **Anytype** → Second-brain style vault for early-stage idea capture and knowledge linking.
+- **Excalidraw** → Visual drafting tool for mindmaps, system flows, and architectural sketches.
+
+### Operational Flow
+
+```mermaid
+graph TD
+    Ideation[Anytype: Atomic Notes] --> Sketch[Excalidraw: Draft Diagrams]
+    Sketch --> Validate[Flow Gate Checklist]
+    Validate --> VAN[VAN Mode: Initialization]
+    Validate --> PLAN
 
 ## Installation Instructions
 
@@ -220,7 +236,7 @@ graph LR
         Progress["progress.md<br>Implementation Status"]
         Creative["creative-*.md<br>Design Decisions"]
     end
-    
+
     style Tasks fill:#f9d77e,stroke:#d9b95c,stroke-width:3px
     style Active fill:#a8d5ff,stroke:#88b5e0
     style Progress fill:#c5e8b7,stroke:#a5c897
@@ -276,4 +292,4 @@ This is a personal hobby project that brings me joy to build and develop. I welc
 
 ---
 
-*Note: This README is for v0.6-beta and subject to change as the system evolves.* 
+*Note: This README is for v0.6-beta and subject to change as the system evolves.*

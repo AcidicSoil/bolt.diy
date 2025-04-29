@@ -1,0 +1,76 @@
+# Node modules and package management
+node_modules/
+**/node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+build/
+dist/
+dist-ssr/
+.next/
+.cache/
+_worker.bundle
+functions/build/
+
+# Environment and local config
+.env
+.env.local
+.dev.vars
+*.vars
+.wrangler
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing and coverage
+coverage/
+.pytest_cache/
+.coverage
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Git
+.git/
+.github/
+
+# Cursor memory bank
+cursor-memory-bank/
+.cursor/
+
+# Documentation build
+site/
+docs/site/
+
+# Modelfiles
+Modelfile
+modelfiles/
+
+# Codefetch output directory (to avoid recursion)
+codefetch/
+
+# Specific to bolt.diy
+app/commit.json
+changelogUI.md
+docs/instructions/Roadmap.md
+.qodo
